@@ -19,6 +19,10 @@ for (let i = 0; i < 1000; i++) {
     }
 }
 
+// Versión de una sola línea
+
+for (let i = 0 ; i <= 1000 ; i++) console.log((i%3==0 && i%5==0) ? 'FizzBuzz' : (i%3 == 0 ? "Fizz" : (i%5 == 0 ? "Buzz" : i)));
+
 /* 
  Una primera condición imprime FizzBuzz solo si es múltiplo de 3 y de 5.
 Primer else: cuando lo anterior no ocurre se pueden dar dos condiciones:
